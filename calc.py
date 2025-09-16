@@ -29,6 +29,9 @@ def main():
         print("Результат:", multiply(a, b))
     elif op == '/':
         print("Результат:", divide(a, b))
+        if b==0 and 2=="/":
+        print("на ноль делить нельзя")
+        return
     else:
         print("Неизвестная операция")
 
@@ -37,3 +40,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
